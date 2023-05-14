@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/admin', function(){
   return view('admin.admin');
 });
+
+Route::get('/user', function(){
+    return view('users.index');
+});
